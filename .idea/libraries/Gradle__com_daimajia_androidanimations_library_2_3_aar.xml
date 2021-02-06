@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.daimajia.androidanimations:library:2.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-2.3.aar/3f938609097f6c86f9dee19b2c02cf6e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-2.3.aar/3f938609097f6c86f9dee19b2c02cf6e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-2.3.aar/3f938609097f6c86f9dee19b2c02cf6e/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-2.3.aar/e657f7dcb77a22cb6f4e5b6e3efa3550/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-2.3.aar/e657f7dcb77a22cb6f4e5b6e3efa3550/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-2.3.aar/e657f7dcb77a22cb6f4e5b6e3efa3550/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.androidanimations/library/2.3/6fcb61f3d8ad35f7aeb11c130fbaa3e96fa76f0/library-2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

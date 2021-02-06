@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackNavy"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button_fit_outfit"
+        android:layout_width="92dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/roboto_bold"
+        android:text="TRY OUTFIT"
+        android:textColor="@color/blackNavy"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_add_outfit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_add_outfit"
+        android:layout_width="92dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/roboto_bold"
+        android:text="ADD OUTFIT"
+        android:textColor="@color/blackNavy"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="650dp"
+        android:layout_height="800dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ovalshape" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-light"
+        android:text="TRY-IT"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="59dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fit_outfit"
+        app:srcCompat="@drawable/roundedwhite" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fit_outfit"
+        app:srcCompat="@drawable/roundedwhite" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fit_outfit"
+        app:srcCompat="@drawable/roundedwhite" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fit_outfit"
+        app:srcCompat="@drawable/roundedwhite" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fit_outfit"
+        app:srcCompat="@drawable/roundedwhite" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fit_outfit"
+        app:srcCompat="@drawable/roundedwhite" />
+</android.support.constraint.ConstraintLayout>
